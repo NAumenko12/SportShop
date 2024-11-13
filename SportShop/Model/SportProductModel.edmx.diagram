@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b5446c1355a74fa8b4e6e6e7d845ab4a" Name="Diagram1">
+        <EntityTypeShape EntityType="Var2GolkovaaModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Var2GolkovaaModel.Заказ" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Var2GolkovaaModel.Категория" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Var2GolkovaaModel.Пользователи" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Var2GolkovaaModel.Пункт_выдачи" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Var2GolkovaaModel.Роль" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Var2GolkovaaModel.Состав_Заказа" Width="1.5" PointX="7.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Var2GolkovaaModel.Товар" Width="1.5" PointX="5.25" PointY="8.125" IsExpanded="true" />
+        <AssociationConnector Association="Var2GolkovaaModel.FK__Заказ__Клиент__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="Var2GolkovaaModel.FK__Заказ__Пункт_выд__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="Var2GolkovaaModel.FK__Состав_За__Заказ__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="Var2GolkovaaModel.FK__Товар__Категория__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="Var2GolkovaaModel.FK__Пользовате__Роль__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="Var2GolkovaaModel.FK__Состав_За__Товар__47DBAE45" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
